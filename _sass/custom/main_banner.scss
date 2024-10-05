@@ -1,0 +1,24 @@
+.banner-container {
+    margin-top: -1rem;
+    margin-right: -1rem;
+    margin-left: -1rem;
+    width: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+@media (min-width: 50rem) {
+    .banner-container {
+        margin-top: -2rem;
+        margin-right: -2rem;
+        margin-left: -2rem; 
+        width: auto; 
+        position: relative; 
+    }
+}
+
+#threejs-homepage-container {
+    position: relative; 
+    width: 100%; 
+    margin: 0 auto; 
+}
